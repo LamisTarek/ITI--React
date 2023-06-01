@@ -1,0 +1,10 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/pexels-karolina-grabowska-5632371.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}

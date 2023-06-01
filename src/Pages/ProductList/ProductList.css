@@ -1,0 +1,27 @@
+img {
+ height: 250px;
+}
+
+/* styling for the card */
+.card{
+    border: 1px solid #a2540b;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+}
+.product-list{
+    background: linear-gradient(90deg, rgba(192,231,233,1) 0%, rgba(203,203,221,1) 30%, rgba(248,254,255,1) 100%);
+}
+.product-list .card-body{
+    position: relative;
+}
+.details-btn{
+    position: absolute;
+    top: 85%;
+    left: (-50%, -50%);
+}
+
